@@ -5,7 +5,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -464,4 +464,21 @@ Text HLabel 6650 950  0    50   Input ~ 0
 +5V_IN
 Text HLabel 6650 1100 0    50   Input ~ 0
 GND
+$Sheet
+S 5400 2300 1250 600 
+U 5C9D51F7
+F0 "LED" 50
+F1 "LED_WS.sch" 50
+F2 "5V_L" I R 6650 2400 50 
+F3 "GNDL" I R 6650 2550 50 
+F4 "LED_DIN" I R 6650 2800 50 
+$EndSheet
+Wire Wire Line
+	1550 5800 700  5800
+Wire Wire Line
+	700  5800 700  4600
+Wire Wire Line
+	700  4600 2650 4600
+Text Label 800  5800 0    50   ~ 0
+GPIOx
 $EndSCHEMATC
